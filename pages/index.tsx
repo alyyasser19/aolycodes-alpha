@@ -61,7 +61,6 @@ const BlogHome: NextPage = ({
           <DiscoverContainer articles={articles.slice(0, 3)} />
         </div>
         {/* <FeaturedEntry /> */}
-        <NewsLetterBox />
       </section>
       <div className={styles.aolyPteLtd}>
         © 2023, Aoly. All Rights Reserved.

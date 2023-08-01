@@ -20,6 +20,7 @@ const RecommendedSection: NextPage<Props> = ({ articles }: Props) => {
               image={article.cover}
               title={article.title}
               description={article.description}
+              slug={article.slug}
             />
           );
         })}
