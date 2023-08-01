@@ -1,0 +1,15 @@
+.minRead {
+  position: relative;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+.minReadWrapper {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}

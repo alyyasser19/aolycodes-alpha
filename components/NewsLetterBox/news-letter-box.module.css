@@ -1,0 +1,84 @@
+.frameChild {
+  border: 1px solid var(--studio-lightmode-midseparator-dee3eb);
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-lg);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  flex: 1;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  height: 4.67rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-mid);
+  align-items: center;
+  justify-content: center;
+}
+.subscribe {
+  position: relative;
+  font-weight: 600;
+}
+.getPluginButton {
+  border-radius: var(--br-7xs);
+  background-color: var(--studio-darkmode-maincta-457eff);
+  height: 4.67rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-18xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.getPluginButton:hover {
+  background-color: var(--color-mediumslateblue-200);
+}
+.frameGroup {
+  width: 46.54rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightsteelblue-200);
+  border: 1px solid var(--studio-lightmode-midseparator-dee3eb);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-27xl) var(--padding-11xl) var(--padding-23xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--studio-darkmode-allwhite-ffffff);
+  font-family: var(--font-roboto);
+}
+
+@media screen and (max-width: 1080px) {
+  .frameGroup {
+    width: 100%;
+  }
+
+  .frameParent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 680px) {
+  .frameChild {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .getPluginButton {
+    transition: 0.3s;
+    width: 100%;
+  }
+
+  .frameGroup {
+    flex-direction: column;
+  }
+}

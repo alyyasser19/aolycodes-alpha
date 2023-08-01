@@ -1,0 +1,525 @@
+.iconBack {
+  position: relative;
+  width: 1.92rem;
+  height: 1.92rem;
+}
+.blogs {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 2.33rem;
+  font-family: var(--font-roboto);
+  color: white;
+  text-align: left;
+}
+.iconBackParent {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  position: sticky;
+  top: 10rem;
+  background-color: var(--studio-darkmode-mainbg-1a1b1c);
+  color: white;
+}
+.tableOfContents {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.tableOfContents:hover {
+  color: var(--studio-darkmode-maincta-457eff);
+}
+.introduction {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 2.33rem;
+  color: inherit;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.introduction:hover {
+  color: var(--studio-darkmode-maincta-457eff);
+}
+.viewCode {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 2.08rem;
+  color: inherit;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.viewCode:hover {
+  color: var(--studio-darkmode-maincta-457eff);
+}
+.introductionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--studio-darkmode-popuplabels-5e6a86);
+}
+.tableOfContentsParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  width: 19.58rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-mini);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.33rem;
+  position: sticky;
+  top: 13.75rem;
+}
+.designToCode {
+  position: relative;
+  text-transform: uppercase;
+}
+.minRead {
+  position: relative;
+  letter-spacing: -0.04em;
+}
+.minReadWrapper {
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.designToCodeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  color: var(--studio-darkmode-maincta-457eff);
+}
+.aolyTurn {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-34xl);
+  letter-spacing: 0.02em;
+  line-height: 5.33rem;
+  font-family: var(--kel);
+}
+.goFromFigma {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  line-height: 2.83rem;
+  font-family: var(--font-roboto);
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.avatarIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 3.33rem;
+  height: 3.33rem;
+  object-fit: cover;
+}
+.annaRos {
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+}
+.postedJustNow {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  color: var(--studio-darkmode-normalsolid-icons-96a2be);
+}
+.authorText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.articleAuthor {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.articleAuthorWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-mid);
+  color: var(--color-dimgray);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem var(--padding-21xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image33Icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 39.71rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  width: 100%;
+}
+.image33Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 0.7px solid var(--studio-lightmode-midseparator-dee3eb);
+  box-sizing: border-box;
+  height: 0.06rem;
+}
+.figmaHasBecome {
+  margin: 0;
+}
+.figmaHasBecomeContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 2.33rem;
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  border-radius: 10.82px;
+  height: 24.17rem;
+}
+.anchorFrame7699 {
+  position: absolute;
+  left: 0;
+  top: -9.17rem;
+}
+.introductionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  position: relative;
+}
+.zeroFrictionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.anchorDirectDeployExport {
+  position: absolute;
+  left: 0;
+  top: false;
+}
+.directDeployContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.figmaIsAnContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 2.33rem;
+  white-space: pre-wrap;
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3.33rem;
+}
+.groupChild {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 50%;
+  width: 3.33rem;
+  height: 3.33rem;
+}
+.vectorIcon {
+  position: absolute;
+  height: 41.16%;
+  width: 41.16%;
+  top: 27.53%;
+  right: 28.84%;
+  bottom: 31.32%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipseParent {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  position: relative;
+  width: 3.33rem;
+  height: 3.33rem;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 34.28%;
+  width: 42.17%;
+  top: 33.82%;
+  right: 28.92%;
+  bottom: 31.91%;
+  left: 28.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 38.75%;
+  width: 23.67%;
+  top: 28.55%;
+  right: 36.08%;
+  bottom: 32.7%;
+  left: 40.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon {
+  position: absolute;
+  height: 39.79%;
+  width: 39.72%;
+  top: 32.14%;
+  right: 30.12%;
+  bottom: 28.08%;
+  left: 30.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupParent {
+  margin: 0 !important;
+  position: sticky;
+  top: 10rem;
+  right: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.42rem;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 4.67rem 0rem var(--padding-21xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-roboto);
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.67rem;
+  width: 100%;
+  font-family: var(--font-source-code-pro);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+.blogArticleBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: 92.75rem;
+}
+.aolyPteLtd {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.01em;
+  line-height: 2rem;
+  color: var(--studio-darkmode-normalsolid-icons-96a2be);
+  text-align: center;
+}
+.madeWithaolyImageIcon {
+  position: fixed;
+  width: 13.33rem;
+  height: 2.67rem;
+  object-fit: cover;
+  bottom: 2rem;
+  right: 2rem;
+}
+.blogArticle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  font-size: var(--font-size-lg);
+  color: var(--studio-darkmode-exportbg-1a202e);
+  font-family: var(--font-roboto);
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 10vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .blogArticleBody {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .designToCodeParent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-3xs);
+  }
+
+  .aolyTurn {
+    font-size: 40px !important;
+    line-height: 4.17rem;
+  }
+
+  .frameWrapper {
+    width: 100%;
+  }
+
+  .image33Icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .image33Wrapper {
+    width: 100%;
+  }
+
+  .frameParent2 {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .groupParent {
+    flex-direction: row;
+    position: relative;
+    top: auto;
+  }
+
+  .frameParent1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aolyPteLtd {
+    margin-bottom: 1.67rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .iconBackParent {
+    position: relative;
+    top: auto;
+  }
+
+  .tableOfContentsParent {
+    display: none;
+  }
+
+  .frameWrapper {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    box-sizing: border-box;
+  }
+
+  .image33Icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .frameParent1 {
+    padding-left: 0rem;
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 680px) {
+  .aolyTurn {
+    font-size: var(--font-size-29xl);
+    line-height: 4.67rem;
+  }
+
+  .aolyPteLtd {
+    margin-bottom: 1.67rem;
+  }
+}

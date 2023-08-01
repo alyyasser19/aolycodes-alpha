@@ -1,0 +1,115 @@
+.aolyGuieLogoIcon {
+  position: relative;
+  width: 20.14rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+
+.headerLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.topHeader {
+  position: relative;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  height: 4rem;
+  flex-direction: row;
+  padding: var(--padding-7xl) var(--padding-29xl) var(--padding-7xl)
+    var(--padding-17xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0rem;
+  z-index: 2;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--studio-darkmode-maincta-457eff);
+  font-family: var(--font-source-code-pro);
+}
+
+@media screen and (max-width: 1200px) {
+  .topHeader {
+    padding-top: var(--padding-lg);
+    height: 3rem;
+    padding-bottom: var(--padding-lg);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homeIcon {
+    transform: scale(1.4);
+    margin-right: 0;
+  }
+
+  .aolyHome {
+    display: none;
+  }
+
+  .aolyHomeLink {
+    padding: var(--padding-mid) var(--padding-mini);
+    box-sizing: border-box;
+  }
+
+  .topHeader {
+    padding: var(--padding-7xs) var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .aolyGuieLogoIcon {
+    width: 16.67rem;
+  }
+
+  .homeIcon {
+    margin-right: 0;
+    transform: scale(1.4);
+  }
+
+  .aolyHome {
+    display: none;
+  }
+
+  .aolyHomeLink {
+    display: flex;
+    padding: var(--padding-mini);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .aolyGuieLogoIcon {
+    width: 13rem;
+  }
+
+  .aolyHomeLink {
+    padding: var(--padding-2xs);
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+  }
+
+  .topHeader {
+    padding: var(--padding-7xs) var(--padding-sm);
+    box-sizing: border-box;
+    height: 5rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .aolyGuieLogoIcon {
+    width: 11.67rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .topHeader {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+    height: 5rem;
+  }
+}
